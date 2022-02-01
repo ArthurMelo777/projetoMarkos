@@ -2,8 +2,8 @@
 
 # TELAS
 ## Telas iniciais
-1. <s>Login</s>
-2. <s>Cadastro</s>
+1. ~~Login~~
+2. ~~Cadastro~~
 
 ## Telas Aluno
 1. Boletim
