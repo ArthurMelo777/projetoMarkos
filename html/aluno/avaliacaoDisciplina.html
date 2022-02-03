@@ -6,7 +6,7 @@
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
     </style>
-    <link rel="stylesheet" type="text/css" href="../../estilos/flexbox.css ">
+    <link rel="stylesheet" type="text/css" href="../../estilos/avaliacao.css ">
   </head>
   <body>
     <header>
@@ -29,12 +29,53 @@
           <li><a id="menu" href="boletinsAluno.html">Boletins</a></li>
           <li><a id="menu" href="turmasAluno.html">Turmas</a></li>
           <li><a id="menu" href="avaliacaoDisciplina.html">Avaliação</a></li>
-          <li><a id="menu" href="autoAvaliacao.html">Relatórios</a></li>
+          <li><a id="menu" href="../departamento/relatorios.html">Relatórios</a></li>
+          <li><a id="menu" href="../login/login.html">Sair</a></li>
       </ul>
 
       <hr>
 
       <div id="conteudo">
+        <h2>AVALIAÇÃO</h2>
+        <div id="all">
+          <div id="pesquisa">
+              <div id="seletor"><p>Disciplinas</p></div>
+              <a href="autoAvaliacao.html"><img id="bpesquisa" src="../../img/botaoPesquisa.png" alt="Pesquisar"></a>
+              <div id="seletor"><p>Matemática</p></div>
+              <a href="#"><img id="bpesquisa" src="../../img/botaoPesquisa.png" alt="Pesquisar"></a>
+          </div>
+
+          <div id="flex">
+            <div id="box">
+              <div id="d2">
+                <p id="p3">DIDÁTICA</p>
+                <input type="number" id="nota" name="notaD" min="0" max="10">
+              </div>
+              <div id="d2">
+                <p id="p3">COMENTÁRIOS</p>
+                <textarea id="check" name="notaD" maxlength="300"></textarea>
+              </div>
+              <div>
+                <button id="botao">ENVIAR</button><br>
+                <button id="botao">EDITAR</button>
+              </div>
+            </div>
+            <div id="box">
+              <div id="d2">
+                <p id="p3">CONTEÚDO</p>
+                <input type="number" id="nota" name="notaD" min="0" max="10">
+              </div>
+              <div id="d2">
+                <p id="p3">COMENTÁRIOS</p>
+                <textarea id="check" name="notaD" maxlength="300"></textarea>
+              </div>
+              <div>
+                <button id="botao">ENVIAR</button><br>
+                <button id="botao">EDITAR</button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
