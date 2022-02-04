@@ -18,10 +18,10 @@
 4. ~~Turmas~~
 
 ## Telas Departamento
-1. Relatório turmas
-2. Relatório docente
-3. Relatório departamento
+1. ~~Relatório turmas~~
+2. ~~Relatório docente~~
+3. ~~Relatório departamento~~
 
 ## OBSERVAÇÕES
-Sistema de login e cadastro
+~~Sistema de login e cadastro~~
 Sistema de análise de formulários via JS

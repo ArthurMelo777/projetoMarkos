@@ -17,30 +17,33 @@
                 <img src="../../img/logoIF.png" alt="Logo IF">
             </header>
             
-            <div id="d2">
+            
+            <form action="../aluno/homeAluno.html" method="post">
+                <div id="d2">
                 <label>
-                    DIGITE SUA MATRÍCULA: 
+                    DIGITE SUA MATRÍCULA:*
                 </label>
-                <input type="text" name="matricula">
+                <input id="matricula" type="text" name="matricula" required>
                 <br>
                 <label>
-                    DIGITE SEU EMAIL:                
+                    DIGITE SEU EMAIL:*
                 </label>
-                <input type="email" name="email">
+                <input type="email" name="senha" required>
                 <br>
                 <label>
-                    DIGITE SUA SENHA:                
+                    DIGITE SUA SENHA:*
                 </label>
-                <input type="password" name="senha">
+                <input type="password" name="senha" required>
                 <br>
                 <label>
-                    CONFIRME SUA SENHA:                
+                    CONFIRME SUA SENHA:*
                 </label>
-                <input type="password" name="senha">
+                <input type="password" name="senha" required>
                 <br>
-            </div>
+                </div>
 
-            <div id="botao"><button type="button" onclick="cadastrar()">REGISTRAR</button></div>
+                <div id="botao"><input type="submit" value="ENTRAR"></div>
+            </form>
 
             <p><a href="login.html">FAZER LOGIN</a></p>
         </div>

@@ -17,20 +17,22 @@
                 <img src="../../img/logoIF.png" alt="Logo IF">
             </header>
 
-            <div id="d2">
-            <label>
-                MATRÍCULA: 
-            </label>
-            <input id="matricula" type="text" name="matricula">
-            <br>
-            <label>
-                SENHA:
-            </label>
-            <input type="password" name="senha">
-            <br>
-            </div>
+            <form action="../aluno/homeAluno.html" method="post">
+                <div id="d2">
+                <label>
+                    MATRÍCULA:* 
+                </label>
+                <input id="matricula" type="text" name="matricula" required>
+                <br>
+                <label>
+                    SENHA:*
+                </label>
+                <input type="password" name="senha" required>
+                <br>
+                </div>
 
-            <div id="botao"><button type="button" onclick="login()">ENTRAR</button></div>
+                <div id="botao"><input type="submit" value="ENTRAR"></div>
+            </form>
 
             <p><a href="#">RECUPERAR SENHA</a></p>
             <p><a href="registro.html">CADASTRAR-SE</a></p>
