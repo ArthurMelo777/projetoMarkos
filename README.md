@@ -23,5 +23,5 @@
 3. ~~Relatório departamento~~
 
 ## OBSERVAÇÕES
-~~Sistema de login e cadastro~~
-Sistema de análise de formulários via JS
+1. ~~Sistema de login e cadastro~~
+2. ~~Sistema de logoff via JS~~
