@@ -5,5 +5,5 @@ function cadastrar ()
 
 function login ()
 {
-    window.location.replace("../aluno/homeAluno.html")
+    window.location.replace("../professor/homeProfessor.html")
 }
