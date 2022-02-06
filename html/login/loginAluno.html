@@ -2,7 +2,7 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
-        <title>SEIFAL | Cadastro</title>
+        <title>SEIFAL | Login</title>
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
         </style>
@@ -15,27 +15,16 @@
                 <h1>SEIFAL</h1>
                 <img src="../../img/logoIF.png" alt="Logo IF">
             </header>
-            
-            
-            <form action="../login/loginAluno.html" method="post">
+
+            <form action="../aluno/homeAluno.html" method="post">
                 <div id="d2">
                 <label>
-                    DIGITE SUA MATRÍCULA:*
+                    MATRÍCULA ALUNO:* 
                 </label>
                 <input id="matricula" type="text" name="matricula" required>
                 <br>
                 <label>
-                    DIGITE SEU EMAIL:*
-                </label>
-                <input type="email" name="senha" required>
-                <br>
-                <label>
-                    DIGITE SUA SENHA:*
-                </label>
-                <input type="password" name="senha" required>
-                <br>
-                <label>
-                    CONFIRME SUA SENHA:*
+                    SENHA:*
                 </label>
                 <input type="password" name="senha" required>
                 <br>
@@ -44,7 +33,10 @@
                 <div id="botao"><input type="submit" value="ENTRAR"></div>
             </form>
 
-            <p><a href="login.html">FAZER LOGIN</a></p>
+            <p><a href="#">RECUPERAR SENHA</a></p>
+            <p><a href="registro.html">CADASTRAR-SE</a></p>
+            <p><a href="loginProfessor.html">TROCAR PARA PROFESSOR</a></p>
+            <p><a href="loginDepartamento.html">TROCAR PARA DEPARTAMENTO</a></p>
         </div>
     </body>
 </html>
